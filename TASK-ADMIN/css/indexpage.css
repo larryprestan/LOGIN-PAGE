@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+.appname{
+    font-family: 'Fredoka One', cursive;
+    color: rgb(40, 102, 216);
+}
+#titulocontainer{
+    margin-top: 2%;
+}
+
+#rootcontainer{
+    margin-top: 5%;
+    width: 45%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px;
+}
+
+#formimage{
+    border-radius: 10px 0px 0px 10px;
+    background-image: url(../images/loginimage.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#formcontainer{
+    border-radius: 0px 10px 10px 0px;
+    padding: 2%;
+
+}
+
+#btnlogin{
+    color: white;
+    background-color:rgb(40, 102, 216) ;
+    transition: 0.5s;
+}
+#btnlogin:hover{
+    color:rgb(40, 102, 216) ;
+    background-color: white;
+    border: 1px solid rgb(40, 102, 216);
+}

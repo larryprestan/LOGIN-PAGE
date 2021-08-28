@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/indexpage.css">
+    <script src="jquery3.6/jquery-3.6.0.min.js"></script>
+    <script src="js/indexpage.js"></script>
+    <title>LOGIN PAGE TASK-ADMIN</title>
+</head>
+
+<body>
+    <div class="container" id="titulocontainer">
+        <h2 class="appname">TASK-ADMIN</h2>
+        <p class="appname" style="margin-top: -1.5%; color: black;">sistema de gestion de tareas</p>
+    </div>
+    <div class="container" id="rootcontainer">
+        <div class="row">
+            <div class="col" id="formimage"></div>
+            <div class="col" id="formcontainer">
+                <h4 class="appname">TASK-ADMIN</h4>
+                <div class="row mb-4">
+                    <div class="col">
+                        <h2>LOGIN</h2>
+                    </div>
+                </div>
+                <form action="" id="formlogin">
+                    <div class="row mb-3">
+                        <div class="col">
+                            <input type="text" class="form-control" name="usuario" id="usuario" autocomplete="off" required placeholder="USUARIO">
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col">
+                            <input type="password" class="form-control" name="contrasena" id="contrasena" autocomplete="off" required placeholder="CONTRASEÑA">
+                        </div>
+                    </div>
+                    <div class="row mb-4">
+                        <div class="col">
+                            <span>Olvidaste tu contraseña? </span><a href="" id="olvidarcontraseña" class="appname">Click Aqui!</a>
+                        </div>
+                    </div>
+                    <div class="row mb-4">
+                        <div class="col">
+                            <button class="btn btn-primary btn-block appname" id="btnlogin">LOGIN</button>
+                        </div>
+                    </div>
+                    <div class="row mb-4">
+                        <div class="col">
+                            <span>No tienes cuenta? </span><a href="" id="crearcuenta" class="appname">Registrate Aqui!</a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="bootstrap4.0/js/bootstrap.min.js"></script>
+
+</html>
